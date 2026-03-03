@@ -4,15 +4,18 @@
   <title>APPC 7th Anniversary!</title>
 </head>
 <body>
+  
   <form onsubmit="auth(); return false;">
     <input type="text" placeholder="Password" id="password">
     <button type="submit">Enter</button>
   </form>
+  
   <script>
     function auth(){
       var password = document.getElementById('password').value;
       
-      if (password === "leo7") {
+      if (password === "leo7")
+      {
         window.location.assign('leo.html');
       }
     }
