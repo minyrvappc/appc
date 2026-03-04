@@ -1,12 +1,8 @@
-* {
+#wish {
+  position: relative;
   margin: 0;
   border: 0;
   padding: 0;
-}
-
-
-#wish {
-  position: relative;
 }
 
 #wish video {
