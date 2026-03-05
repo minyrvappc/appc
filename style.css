@@ -53,6 +53,14 @@ body {
   border-radius: 50% / 5%;
 }
 
+#cylinder4 {
+  position:relative;
+  width:20px;
+  height:380px;
+  background-color: #663300;
+  border-radius: 50% / 5%;
+}
+
 .left:hover {
   animation-play-state: running;
 }
