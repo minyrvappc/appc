@@ -82,6 +82,9 @@ body {
 /* scroll middle */
 
 .middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 330px;
   width: 10px;
   background-color: #EEEE99;
