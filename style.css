@@ -49,8 +49,8 @@ body {
 
 #cylinder {
   position: absolute;
-  width: 75px;
-  height: 320px;
+  width: 80px;
+  height: 341px;
   background-color: #361F52;
   border-radius: 50% / 5%;
   z-index:3;
@@ -58,8 +58,8 @@ body {
 
 #cylinder2 {
   position: absolute;
-  width: 72px;
-  height: 330px;
+  width: 77px;
+  height: 352px;
   background-color: #EEEE99;
   border-radius: 50% / 4%;
   z-index:2;
@@ -67,8 +67,8 @@ body {
 
 #cylinder3 {
   position: absolute;
-  width: 30px;
-  height: 350px;
+  width: 35px;
+  height: 380px;
   background-color: #663300;
   border-radius: 50% / 1%;
   z-index:1;
