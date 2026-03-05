@@ -34,11 +34,12 @@ html, body {
   position:relative;
   animation-name: slideLeft;
   animation-duration: 1s;
+  animation-timing-function: ease-in-out;
 }
 
 @keyframes slideLeft {
   from {transform: translateX(0px)}
-  to {transform: translateX(200px)}
+  to {transform: translateX(-250px)}
 }
 
 
