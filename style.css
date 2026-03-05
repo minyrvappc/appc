@@ -41,6 +41,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index:5;
   animation: slideLeft 1s ease-in-out forwards;
   animation-play-state: paused;
 }
@@ -49,9 +50,8 @@ body {
   position:absolute;
   width:75px;
   height:320px;
-  background-color: #DD22FF;
+  background-color: #7700AA;
   border-radius: 50% / 5%;
-  z-index:5;
 }
 
 #cylinder2 {
@@ -60,7 +60,6 @@ body {
   height:330px;
   background-color: #EEEE99;
   border-radius: 50% / 4%;
-  z-index:4;
 }
 
 #cylinder3 {
@@ -69,7 +68,6 @@ body {
   height:350px;
   background-color: #663300;
   border-radius: 50% / 1%;
-  z-index:-1;
 }
 
 @keyframes slideLeft {
@@ -100,6 +98,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index:-5;
   animation: slideRight 1s ease-in-out forwards;
   animation-play-state: paused;
 }
@@ -108,9 +107,8 @@ body {
   position:absolute;
   width:15px;
   height:320px;
-  background-color: #DD22FF;
+  background-color: #7700AA;
   border-radius: 50% / 5px;
-  z-index:2;
 }
 
 #cylinder5 {
@@ -119,7 +117,6 @@ body {
   height:330px;
   background-color: #EEEE99;
   border-radius: 50% / 2px;
-  z-index:-2;
 }
 
 #cylinder6 {
@@ -128,7 +125,6 @@ body {
   height:350px;
   background-color: #663300;
   border-radius: 50% / 3px;
-  z-index:-3;
 }
 
 @keyframes slideRight {
