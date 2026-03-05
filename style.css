@@ -31,9 +31,8 @@ body {
 
 /* scroll */
 
-.scroll:hover {
-  animation-play-state: running;
-}
+.scroll:hover .left { animation-play-state: running; }
+.scroll:hover .right { animation-play-state: running; }
 
 
 /* scroll left */
