@@ -31,7 +31,7 @@ body {
   width:75px;
   height:320px;
   background-color: #EEEEAA;
-  border-radius: 50% / 15%;
+  border-radius: 50% / 5%;
   animation: slideLeft 1s ease-in-out forwards;
   animation-play-state: paused;
 }
