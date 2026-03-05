@@ -149,13 +149,19 @@ body {
   width: 10px;
   height: 260px;
   background-color: #EFF0E9;
+  animation: page 1s ease-in-out forwards;
+  animation-play-state: paused;
 }
 
 @keyframes middle {
   from {transform: scaleX(1);}
   to {transform: scaleX(59);}
 }
-  
+
+@keyframes page {
+  from {transform: scaleX(1);}
+  to {transform: scaleX(40);}
+}
 
 
 
