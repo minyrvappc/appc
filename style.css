@@ -44,7 +44,6 @@ body {
   align-items: center;
   animation: slideLeft 1s ease-in-out forwards;
   animation-play-state: paused;
-  z-index:5;
 }
 
 #cylinder {
@@ -87,7 +86,6 @@ body {
   align-items: center;
   animation: slideRight 1s ease-in-out forwards;
   animation-play-state: paused;
-  z-index:4;
 }
 
 #cylinder4 {
