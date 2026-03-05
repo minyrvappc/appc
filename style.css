@@ -74,8 +74,8 @@ body {
 }
 
 @keyframes slideLeft {
-  from {transform: translateX(0px)}
-  to {transform: translateX(-300px)}
+  from {transform: translateX(0px);}
+  to {transform: translateX(-300px);}
 }
 
 
@@ -93,8 +93,8 @@ body {
   z-index:0;
 
 @keyframes middle {
-  from {transform: scaleX(1)}
-  to {transform: scaleX(50)}
+  from {transform: scaleX(1);}
+  to {transform: scaleX(50);}
 }
   
 }
@@ -137,8 +137,8 @@ body {
 }
 
 @keyframes slideRight {
-  from {transform: translateX(0px)}
-  to {transform: translateX(300px)}
+  from {transform: translateX(0px);}
+  to {transform: translateX(300px);}
 }
 
 
