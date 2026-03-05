@@ -69,7 +69,6 @@ body {
   position: absolute;
   width: 35px;
   height: 380px;
-  background-color: #663300;
   background: linear-gradient (to right, #663300, #805020, #663300, #331A01);
   border-radius: 50% / 1%;
   z-index:1;
