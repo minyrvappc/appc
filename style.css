@@ -10,6 +10,12 @@
   object-fit: cover;
 }
 
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 #cylinder {
   width:50px;
