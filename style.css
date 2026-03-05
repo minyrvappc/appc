@@ -9,3 +9,12 @@
   z-index:10;
   object-fit: cover;
 }
+
+
+#cylinder {
+  width:50;
+  height:300;
+  background-color:#D0F070
+  position:relative;
+  
+}
