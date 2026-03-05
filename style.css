@@ -80,6 +80,20 @@ body {
 
 /* scroll middle */
 
+.middle {
+  height: 330px;
+  width: 10px;
+  background-color: #EEEE99;
+  animation: middle 1s ease-in-out forwards;
+  animation-play-state: paused;
+
+@keyframes middle {
+  from {transform: scaleX(0px)}
+  to {transform: scaleX(600x);
+}
+  
+}
+
 /* scroll right */
 
 .right {
