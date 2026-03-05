@@ -126,6 +126,7 @@ body {
 
 .middle {
   display: flex;
+  position: absolute;
   justify-content: center;
   align-items: center;
   height: 330px;
@@ -134,6 +135,7 @@ body {
   animation: middle 1s ease-in-out forwards;
   animation-play-state: paused;
 }
+
   
 @keyframes middle {
   from {transform: scaleX(1);
