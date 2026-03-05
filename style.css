@@ -133,21 +133,21 @@ body {
 #border {
   position: absolute;
   width: 10px;
-  height: 325px;
+  height: 320px;
   background-color: #EEEE99;
 }
 
 #colour {
   position: absolute;
   width: 10px;
-  height: 320px;
+  height: 300px;
   background-color: #361F52;
 }
 
 #page {
   position: absolute;
   width: 10px;
-  height: 310px;
+  height: 260px;
   background-color: #EFF0E9;
 }
 
