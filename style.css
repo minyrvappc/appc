@@ -32,5 +32,18 @@ html, body {
   height:300px;
   background-color: #E0C0A0;
   position:relative;
-  
+  animation-name: slideLeft;
+  animation-duration: 1s;
 }
+
+@keyframes slideLeft {
+  to{transform: translateX(100px)}
+}
+
+
+
+
+
+
+
+
