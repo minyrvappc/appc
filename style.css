@@ -126,7 +126,6 @@ body {
 
 .middle {
   display: flex;
-  position: absolute;
   justify-content: center;
   align-items: center;
   height: 330px;
@@ -140,8 +139,7 @@ body {
   
 @keyframes middle {
   from {transform: scaleX(1);}
-  to {transform: scaleX(60);
-      z-index:-1;}
+  to {transform: scaleX(60);}
 }
   
 
