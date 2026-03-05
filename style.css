@@ -33,6 +33,7 @@ body {
 /* scroll left */
 
 .left {
+  display: flex;
   justify-content: center;
   align-items: center;
   animation: slideLeft 1s ease-in-out forwards;
