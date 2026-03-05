@@ -133,7 +133,7 @@ body {
 #border {
   position: absolute;
   width: 10px;
-  height: 330px;
+  height: 325px;
   background-color: #EEEE99;
 }
 
@@ -142,3 +142,6 @@ body {
   to {transform: scaleX(59);}
 }
   
+
+
+
