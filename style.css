@@ -93,8 +93,8 @@ body {
   z-index:0;
 
 @keyframes middle {
-  from {transform: scaleX(0px)}
-  to {transform: scaleX(600x);
+  from {transform: scaleX(1)}
+  to {transform: scaleX(50)}
 }
   
 }
