@@ -45,6 +45,14 @@ body {
   border-radius: 50% / 5%;
 }
 
+#cylinder2 {
+  position:relative;
+  width:65px;
+  height:330px;
+  background-color: #FF00FF;
+  border-radius: 50% / 5%;
+}
+
 .left:hover {
   animation-play-state: running;
 }
