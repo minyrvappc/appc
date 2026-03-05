@@ -38,7 +38,7 @@ body {
 }
 
 #cylinder {
-  position:relative;
+  position:absolute;
   width:75px;
   height:320px;
   background-color: #003377;
@@ -46,19 +46,19 @@ body {
 }
 
 #cylinder2 {
-  position:relative;
+  position:absolute;
   width:65px;
   height:330px;
   background-color: #FF00FF;
-  border-radius: 50% / 5%;
+  border-radius: 50% / 3%;
 }
 
 #cylinder3 {
-  position:relative;
+  position:absolute;
   width:20px;
   height:380px;
   background-color: #663300;
-  border-radius: 50% / 5%;
+  border-radius: 50% / 1%;
 }
 
 .left:hover {
