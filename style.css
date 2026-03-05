@@ -44,7 +44,7 @@ body {
   align-items: center;
   animation: slideLeft 1s ease-in-out forwards;
   animation-play-state: paused;
-  z-index:100;
+  z-index:5;
 }
 
 #cylinder {
@@ -134,13 +134,13 @@ body {
   background-color: #EEEE99;
   animation: middle 1s ease-in-out forwards;
   animation-play-state: paused;
+  z-index:-1;
 }
 
   
 @keyframes middle {
-  from {transform: scaleX(1);
-       z-index:-100;}
-  to {transform: scaleX(70);}
+  from {transform: scaleX(1);}
+  to {transform: scaleX(60);}
 }
   
 
