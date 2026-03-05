@@ -35,11 +35,16 @@ html, body {
   animation-name: slideLeft;
   animation-duration: 1s;
   animation-timing-function: ease-in-out;
+  animation-play-state: paused;
+}
+
+#cylinder:hover {
+  animation-play-state: running;
 }
 
 @keyframes slideLeft {
   from {transform: translateX(0px)}
-  to {transform: translateX(-250px)}
+  to {transform: translateX(100px)}
 }
 
 
