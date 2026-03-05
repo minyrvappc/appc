@@ -93,7 +93,7 @@ body {
   position: absolute;
   width:15px;
   height:320px;
-  background-color: #361F52;
+  background: linear-gradient (to right, #AB0740, #BA4C76, #AB0740, #80032E);
   border-radius: 50% / 5px;
   z-index:3;
 }
@@ -102,7 +102,7 @@ body {
   position: absolute;
   width: 12px;
   height: 330px;
-  background-color: #EEEE99;
+  background: linear-gradient (to right, #B3AA37, #D1CA6B, #B3AA37, #806F03);
   border-radius: 50% / 2px;
   z-index:2;
 }
@@ -111,7 +111,7 @@ body {
   position: absolute;
   width: 8px;
   height: 350px;
-  background-color: #663300;
+  background: linear-gradient (to right, #663300, #805020, #663300, #331A01);
   border-radius: 50% / 3px;
   z-index:1;
 }
@@ -135,14 +135,14 @@ body {
   position: absolute;
   width: 10px;
   height: 310px;
-  background-color: #EEEE99;
+  background: linear-gradient (to left, #B3AA37, #D1CA6B, #B3AA37, #806F03);
 }
 
 #colour {
   position: absolute;
   width: 10px;
   height: 300px;
-  background-color: #361F52;
+  background: linear-gradient (to left, #AB0740, #BA4C76, #AB0740, #80032E);
 }
 
 #page {
@@ -151,6 +151,7 @@ body {
   height: 260px;
   background-color: #EFF0E9;
   animation: page 1s ease-in-out forwards;
+  background: linear-gradient (to left, #BDBFB2, #EFF0E9, #F9FAF5, #EFF0E9);
   animation-play-state: paused;
 }
 
