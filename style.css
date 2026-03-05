@@ -37,7 +37,8 @@ html, body {
 }
 
 @keyframes slideLeft {
-  from{transform: translateX(200px)}
+  from {transform: translateX(0px)}
+  to {transform: translateX(200px)}
 }
 
 
