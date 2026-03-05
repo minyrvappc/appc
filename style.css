@@ -29,6 +29,12 @@ body {
 }
 
 
+/* scroll */
+
+.scroll:hover {
+  animation-play-state: running;
+}
+
 
 /* scroll left */
 
@@ -65,10 +71,6 @@ body {
   background-color: #663300;
   border-radius: 50% / 1%;
   z-index:-1;
-}
-
-.left:hover {
-  animation-play-state: running;
 }
 
 @keyframes slideLeft {
@@ -114,10 +116,6 @@ body {
   background-color: #663300;
   border-radius: 50% / 3px;
   z-index:-2;
-}
-
-.right:hover {
-  animation-play-state: running;
 }
 
 @keyframes slideRight {
