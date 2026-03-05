@@ -105,7 +105,7 @@ body {
   height:330px;
   background-color: #EEEE99;
   border-radius: 50% / 2px;
-  z-index:1;
+  z-index:-2;
 }
 
 #cylinder6 {
@@ -114,7 +114,7 @@ body {
   height:350px;
   background-color: #663300;
   border-radius: 50% / 3px;
-  z-index:-2;
+  z-index:-3;
 }
 
 @keyframes slideRight {
