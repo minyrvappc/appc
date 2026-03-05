@@ -32,8 +32,8 @@ body {
 /* scroll */
 
 .scroll:hover .left {animation-play-state: running;}
-.scroll:hover .middle {animation-play-state: running;}
 .scroll:hover .right {animation-play-state: running;}
+.scroll:hover .middle {animation-play-state: running;}
 
 
 /* scroll left */
@@ -78,27 +78,6 @@ body {
   to {transform: translateX(-300px);}
 }
 
-
-/* scroll middle */
-
-.middle {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 330px;
-  width: 10px;
-  background-color: #EEEE99;
-  animation: middle 1s ease-in-out forwards;
-  animation-play-state: paused;
-  z-index:0;
-
-@keyframes middle {
-  from {transform: scaleX(1);}
-  to {transform: scaleX(50);}
-}
-  
-}
-
 /* scroll right */
 
 .right {
@@ -141,7 +120,25 @@ body {
   to {transform: translateX(300px);}
 }
 
+/* scroll middle */
 
+.middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 330px;
+  width: 10px;
+  background-color: #EEEE99;
+  animation: middle 1s ease-in-out forwards;
+  animation-play-state: paused;
+  z-index:0;
+}
+  
+@keyframes middle {
+  from {transform: scaleX(1);}
+  to {transform: scaleX(50);}
+}
+  
 
 
 
