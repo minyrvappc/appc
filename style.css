@@ -14,6 +14,8 @@ body {
   align-items: center;
 }
 
+/* wish */
+
 #wish {
   position:relative;
 }
@@ -26,17 +28,24 @@ body {
   object-fit: cover;
 }
 
+
+
+/* scroll left */
+
+.left {
+  animation: slideLeft 1s ease-in-out forwards;
+  animation-play-state: paused;
+}
+
 #cylinder {
   position:relative;
   width:75px;
   height:320px;
   background-color: #EEEEAA;
   border-radius: 50% / 5%;
-  animation: slideLeft 1s ease-in-out forwards;
-  animation-play-state: paused;
 }
 
-#cylinder:hover {
+.left:hover {
   animation-play-state: running;
 }
 
@@ -46,6 +55,9 @@ body {
 }
 
 
+/* scroll middle */
+
+/* scroll right */
 
 
 
