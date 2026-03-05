@@ -31,8 +31,8 @@ body {
 
 /* scroll */
 
-.scroll:hover .left { animation-play-state: running; }
-.scroll:hover .right { animation-play-state: running; }
+.scroll:hover .left {animation-play-state: running;}
+.scroll:hover .right {animation-play-state: running;}
 
 
 /* scroll left */
@@ -49,7 +49,7 @@ body {
   position:absolute;
   width:75px;
   height:320px;
-  background-color: #BBAA22;
+  background-color: #55AAEE;
   border-radius: 50% / 5%;
   z-index:5;
 }
@@ -94,7 +94,7 @@ body {
   position:absolute;
   width:15px;
   height:320px;
-  background-color: #BBAA22;
+  background-color: #55AAEE;
   border-radius: 50% / 5%;
   z-index:2;
 }
