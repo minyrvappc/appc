@@ -137,6 +137,20 @@ body {
   background-color: #EEEE99;
 }
 
+#colour {
+  position: absolute;
+  width: 10px;
+  height: 320px;
+  background-color: #361F52;
+}
+
+#page {
+  position: absolute;
+  width: 10px;
+  height: 310px;
+  background-color: #EFF0E9;
+}
+
 @keyframes middle {
   from {transform: scaleX(1);}
   to {transform: scaleX(59);}
