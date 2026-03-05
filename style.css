@@ -128,11 +128,19 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  animation: middle 1s ease-in-out forwards;
+  animation-play-state: paused;
 }
 
 #border {
   position: absolute;
-  width: 75px;
-  height: 320px;
+  width: 10px;
+  height: 330px;
   background-color: #361F52;
 }
+
+@keyframes middle {
+  from {transform: scaleX(1);}
+  to {transform: scaleX(59);}
+}
+  
