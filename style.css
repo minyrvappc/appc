@@ -81,6 +81,49 @@ body {
 
 /* scroll right */
 
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: slideRight 1s ease-in-out forwards;
+  animation-play-state: paused;
+}
+
+#cylinder4 {
+  position:absolute;
+  width:15px;
+  height:320px;
+  background-color: #BBAA22;
+  border-radius: 50% / 5%;
+  z-index:2;
+}
+
+#cylinder5 {
+  position:absolute;
+  width:12px;
+  height:330px;
+  background-color: #EEEE99;
+  border-radius: 50% / 4%;
+  z-index:1;
+}
+
+#cylinder6 {
+  position:absolute;
+  width:8px;
+  height:350px;
+  background-color: #663300;
+  border-radius: 50% / 1%;
+  z-index:-1;
+}
+
+.right:hover {
+  animation-play-state: running;
+}
+
+@keyframes slideRight {
+  from {transform: translateX(0px)}
+  to {transform: translateX(300px)}
+}
 
 
 
