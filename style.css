@@ -30,7 +30,7 @@ body {
   position:relative;
   width:75px;
   height:320px;
-  background-color: #EE0000;
+  background-color: #EEEEAA;
   border-radius: 50% / 15%;
   animation: slideLeft 1s ease-in-out forwards;
   animation-play-state: paused;
