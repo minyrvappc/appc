@@ -139,7 +139,7 @@ body {
   
 @keyframes middle {
   from {transform: scaleX(1);}
-  to {transform: scaleX(60);}
+  to {transform: scaleX(59);}
 }
   
 
