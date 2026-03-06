@@ -38,7 +38,7 @@ body {
 .scroll:hover .left {animation-play-state: running;}
 .scroll:hover .right {animation-play-state: running;}
 .scroll:hover .middle {animation-play-state: running;}
-.scroll:hover .middle #page {animation-play-state: running;}
+.scroll:hover .middle #page2 {animation-play-state: running;}
 
 .scroll {
   position: relative;
