@@ -160,7 +160,21 @@ body {
   background: linear-gradient(to left, #AB0740, #BA4C76, #AB0740, #80032E);
 }
 
-#page {
+@keyframes middle {
+  from {transform: scaleX(1);}
+  to {transform: scaleX(59);}
+}
+
+/* page */
+
+.page {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+#page2 {
   position: absolute;
   left: -280px;
   width: 10px;
@@ -169,12 +183,6 @@ body {
   animation: page 1s ease-in-out forwards;
   animation-play-state: paused;
 }
-
-@keyframes middle {
-  from {transform: scaleX(1);}
-  to {transform: scaleX(59);}
-}
-
 
 
 /* text */
