@@ -75,13 +75,8 @@ body {
 }
 
 @keyframes slideLeft {
-  0% {
-    transform: translateX(0px);}
-  50% {
-    transform: scale(1.5);}
-  100% {
-    transform: translateX(-300px);
-    transform: scale(1);}
+  50% {transform: scale(1.5);}
+  100% {transform: translateX(-300px) scale(1);}
 }
 
 /* scroll right */
@@ -122,13 +117,8 @@ body {
 }
 
 @keyframes slideRight {
-  0% {
-    transform: translateX(0px);}
-  50% {
-    transform: scale(1.5);}
-  100% {
-    transform: translateX(300px);
-    transform: scale(1);}
+  50% {transform: scale(1.5);}
+  100% {transform: translateX(300px) scale(1);}
 }
 
 /* scroll middle */
@@ -166,23 +156,13 @@ body {
 }
 
 @keyframes middle {
-  0% {
-    transform: scaleX(1);}
-  50% {
-    transform: scale(1.5);}
-  100% {
-    transform: scaleX(59);
-    transform: scale(1);}
+  50% {transform: scale(1.5);}
+  100% {transform: scaleX(59) scale(1);}
 }
 
 @keyframes page {
-  0% {
-    transform: scaleX(1);}
-  50% {
-    transform: scale(1.5);}
-  100% {
-    transform: scaleX(0.88);
-    transform: scale(1);}
+  50% {transform: scale(1.5);}
+  100% {transform: scaleX(0.88) scale(1);}
 }
 
 
