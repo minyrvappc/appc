@@ -90,8 +90,8 @@ body {
 
 #cylinder4 {
   position: absolute;
-  width:15px;
-  height:320px;
+  width: 15px;
+  height: 320px;
   background: linear-gradient(to right, #AB0740, #BA4C76, #AB0740, #80032E);
   border-radius: 50% / 5px;
   z-index:3;
@@ -147,9 +147,8 @@ body {
   position: absolute;
   width: 10px;
   height: 260px;
-  background-color: #EFF0E9;
-  animation: page 1s ease-in-out forwards;
   background: linear-gradient(to right, #D7D9CE, #EFF0E9, #F9FAF5, #EFF0E9);
+  animation: page 1s ease-in-out forwards;
   animation-play-state: paused;
 }
 
