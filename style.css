@@ -165,7 +165,7 @@ body {
     transform: scaleX(1);
   }
   to {
-    transform: scaleX(0.83);
+    transform: scaleX(0.88);
   }
 }
 
