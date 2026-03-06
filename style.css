@@ -40,6 +40,10 @@ body {
 .scroll:hover .middle {animation-play-state: running;}
 .scroll:hover .middle #page {animation-play-state: running;}
 
+.scroll {
+  position: relative;
+}
+
 
 
 
