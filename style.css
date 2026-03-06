@@ -134,10 +134,7 @@ body {
 /* scroll middle */
 
 .middle {
-  display: flex;
   position: relative;
-  justify-content: center;
-  align-items: center;
   animation: middle 1s ease-in-out forwards;
   animation-play-state: paused;
 }
