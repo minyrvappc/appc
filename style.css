@@ -180,7 +180,7 @@ body {
 /* text */
 
 #text {
-  position: absolute;
+  position: relative;
   text-align: center;
   font-size: 20px;
 }
