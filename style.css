@@ -162,7 +162,7 @@ body {
 
 #page {
   position: absolute;
-  left: 280px;
+  left: -280px;
   width: 10px;
   height: 260px;
   background: linear-gradient(to right, #D7D9CE, #EFF0E9, #F9FAF5, #EFF0E9);
@@ -176,7 +176,7 @@ body {
 }
 
 @keyframes page {
-  to {transform: translateX(200);}
+  to {transform: translateX(200px);}
 }
 
 
