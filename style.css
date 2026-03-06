@@ -175,10 +175,6 @@ body {
   to {transform: scaleX(59);}
 }
 
-@keyframes page {
-  to {transform: translateX(1px);}
-}
-
 
 
 /* text */
