@@ -179,5 +179,6 @@ body {
 /* text */
 
 #text {
-  font-size: 20px;
+  position: absolute;
+  font-size: 30px;
 }
