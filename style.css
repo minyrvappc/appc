@@ -176,7 +176,7 @@ body {
 }
 
 @keyframes page {
-  to {transform: translateX(200px);}
+  to {transform: translateX(-5px);}
 }
 
 
