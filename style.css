@@ -75,7 +75,7 @@ body {
 }
 
 @keyframes slideLeft {
-  50% {transform: scale(1.1);}
+  50% {transform: translateX(-150px) scale(1.1);}
   100% {transform: translateX(-300px) scale(1);}
 }
 
@@ -117,7 +117,7 @@ body {
 }
 
 @keyframes slideRight {
-  50% {transform: scale(1.1);}
+  50% {transform: translateX(150px) scale(1.1);}
   100% {transform: translateX(300px) scale(1);}
 }
 
@@ -156,12 +156,12 @@ body {
 }
 
 @keyframes middle {
-  50% {transform: scale(1.1);}
+  50% {transform: scaleX(24.5) scale(1.1);}
   100% {transform: scaleX(59) scale(1);}
 }
 
 @keyframes page {
-  50% {transform: scale(1.1);}
+  50% {transform: scaleX(0.44) scale(1.1);}
   100% {transform: scaleX(0.88) scale(1);}
 }
 
