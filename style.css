@@ -81,6 +81,7 @@ body {
 }
 
 @keyframes slideLeft {
+  from {transform: translateX(0px);}
   to {transform: translateX(-300px);}
 }
 
@@ -124,6 +125,7 @@ body {
 }
 
 @keyframes slideRight {
+  from {transform: translateX(0px);}
   to {transform: translateX(300px);}
 }
 
@@ -163,10 +165,12 @@ body {
 }
 
 @keyframes middle {
+  from {transform: scaleX(1);}
   to {transform: scaleX(59);}
 }
 
 @keyframes page {
+  from {transform: scaleX(1);}
   to {transform: scaleX(0.87);}
 }
 
