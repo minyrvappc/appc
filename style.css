@@ -75,8 +75,13 @@ body {
 }
 
 @keyframes slideLeft {
-  from {transform: translateX(0px);}
-  to {transform: translateX(-300px);}
+  0% {
+    transform: translateX(0px);}
+  50% {
+    transform: scale(1.5);}
+  100% {
+    transform: translateX(-300px);
+    transform: scale(1;}
 }
 
 /* scroll right */
@@ -117,8 +122,13 @@ body {
 }
 
 @keyframes slideRight {
-  from {transform: translateX(0px);}
-  to {transform: translateX(300px);}
+  0% {
+    transform: translateX(0px);}
+  50% {
+    transform: scale(1.5);}
+  100% {
+    transform: translateX(300px);
+    transform: scale(1);}
 }
 
 /* scroll middle */
@@ -151,22 +161,28 @@ body {
   height: 260px;
   background-color: #EFF0E9;
   animation: page 1s ease-in-out forwards;
-  background: linear-gradient(to left, #BDBFB2, #EFF0E9, #F9FAF5, #EFF0E9);
+  background: linear-gradient(to right, #BDBFB2, #EFF0E9, #F9FAF5, #EFF0E9);
   animation-play-state: paused;
 }
 
 @keyframes middle {
-  from {transform: scaleX(1);}
-  to {transform: scaleX(59);}
+  0% {
+    transform: scaleX(1);}
+  50% {
+    transform: scale(1.5);}
+  100% {
+    transform: scaleX(59);
+    transform: scale(1);}
 }
 
 @keyframes page {
-  from {
-    transform: scaleX(1);
-  }
-  to {
+  0% {
+    transform: scaleX(1);}
+  50% {
+    transform: scale(1.5);}
+  100% {
     transform: scaleX(0.88);
-  }
+    transform: scale(1);}
 }
 
 
