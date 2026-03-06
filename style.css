@@ -163,11 +163,9 @@ body {
 @keyframes page {
   from {
     transform: scaleX(1);
-    transform: translateX(0px);
   }
   to {
-    transform: scaleX(0.85);
-    transform: translateX(-10px)
+    transform: scaleX(0.83);
   }
 }
 
