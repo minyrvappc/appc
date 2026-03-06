@@ -14,6 +14,8 @@ body {
   align-items: center;
 }
 
+
+
 /* wish */
 
 #wish {
@@ -29,12 +31,16 @@ body {
 }
 
 
+
+
 /* scroll */
 
 .scroll:hover .left {animation-play-state: running;}
 .scroll:hover .right {animation-play-state: running;}
 .scroll:hover .middle {animation-play-state: running;}
 .scroll:hover .middle #page {animation-play-state: running;}
+
+
 
 
 /* scroll left */
@@ -78,6 +84,8 @@ body {
   to {transform: translateX(-300px);}
 }
 
+
+
 /* scroll right */
 
 .right {
@@ -118,6 +126,8 @@ body {
 @keyframes slideRight {
   to {transform: translateX(300px);}
 }
+
+
 
 /* scroll middle */
 
@@ -161,3 +171,9 @@ body {
 }
 
 
+
+/* text */
+
+#text {
+  font-size: 20px;
+}
