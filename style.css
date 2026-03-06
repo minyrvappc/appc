@@ -80,7 +80,7 @@ body {
     animation-timing-function: ease-in;}
   50% {transform: translateX(-150px) scale(1.1);
     animation-timing-function: ease-out;}
-  100% {transform: translateX(-300px) translateY(-10px) scale(1);}
+  100% {transform: translateX(-300px) translateY(-20px) scale(1);}
 }
 
 /* scroll right */
@@ -128,7 +128,7 @@ body {
     transform: translateX(150px) scale(1.1);
     animation-timing-function: ease-out;}
   100% {
-    transform: translateX(286px) translateY(-10px) scale(1);}
+    transform: translateX(286px) translateY(-20px) scale(1);}
 }
 
 /* scroll middle */
@@ -181,7 +181,7 @@ body {
     transform: translateX(0) scale(1);
     animation-timing-function: ease-in;}
   50% {
-    transform: scaleX(0.44) scale(1.1);
+    transform: scaleX(0.60) scale(1.05);
     animation-timing-function: ease-out;}
   100% {
     transform: scaleX(0.88) scale(1);}
