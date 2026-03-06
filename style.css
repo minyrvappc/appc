@@ -43,7 +43,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  animation: slideLeft 1s ease-in-out forwards;
+  animation: slideLeft 1s forwards;
   animation-play-state: paused;
 }
 
@@ -75,7 +75,10 @@ body {
 }
 
 @keyframes slideLeft {
-  50% {transform: translateX(-150px) scale(1.1);}
+  0% {
+    animation-timing-function: ease-in;}
+  50% {transform: translateX(-150px) scale(1.1);
+    animation-timing-function: ease-out;}
   100% {transform: translateX(-300px) scale(1);}
 }
 
@@ -85,7 +88,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  animation: slideRight 1s ease-in-out forwards;
+  animation: slideRight 1s forwards;
   animation-play-state: paused;
 }
 
@@ -117,8 +120,13 @@ body {
 }
 
 @keyframes slideRight {
-  50% {transform: translateX(150px) scale(1.1);}
-  100% {transform: translateX(300px) scale(1);}
+  0% {
+    animation-timing-function: ease-in;}
+  50% {
+    transform: translateX(150px) scale(1.1);
+    animation-timing-function: ease-out;}
+  100% {
+    transform: translateX(300px) scale(1);}
 }
 
 /* scroll middle */
@@ -127,7 +135,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  animation: middle 1s ease-in-out forwards;
+  animation: middle 1s forwards;
   animation-play-state: paused;
 }
 
@@ -156,12 +164,21 @@ body {
 }
 
 @keyframes middle {
-  50% {transform: scaleX(24.5) scale(1.1);}
-  100% {transform: scaleX(59) scale(1);}
+  0% {
+    animation-timing-function: ease-in;}
+  50% {
+    transform: scaleX(24.5) scale(1.1);
+    animation-timing-function: ease-out;}
+  100% {
+    transform: scaleX(59) scale(1);}
 }
 
 @keyframes page {
-  50% {transform: scaleX(0.44) scale(1.1);}
+  0% {
+    animation-timing-function: ease-in;}
+  50% {
+    transform: scaleX(0.44) scale(1.1);
+    animation-timing-function: ease-out;}
   100% {transform: scaleX(0.88) scale(1);}
 }
 
