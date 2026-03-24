@@ -176,8 +176,8 @@ body {
 
 #page2 {
   position: absolute;
-  left: -580px;
-  width: 520px;
+  left: -575px;
+  width: 525px;
   height: 260px;
   background: linear-gradient(to right, #D7D9CE, #EFF0E9, #F9FAF5, #FFFFFF);
   animation: page 1s ease-in-out forwards;
