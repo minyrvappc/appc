@@ -195,6 +195,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  left: -575px;
+  animation: page 1s ease-in-out forwards;
 }
 
 #msg {
