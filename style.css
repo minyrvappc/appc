@@ -195,11 +195,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  left: -575px;
 }
 
 #msg {
   position: absolute;
   width: 200px;
   text-align: center;
+  left: -575px;
 }
