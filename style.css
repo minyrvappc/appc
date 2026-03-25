@@ -223,7 +223,7 @@ body {
   left: -600px;
   width: 600px;
   height: 300px;
-  background-color: #EE2222;
+  background-color: #FFFFFF;
   animation: cover 1s ease-in-out forwards;
   animation-play-state: paused;
 }
