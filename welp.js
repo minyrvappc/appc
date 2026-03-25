@@ -1,6 +1,8 @@
+document.addEventListener("DOMContentLoaded", () => {
+  const wish = document.getElementById("wish");
+  const video = document.querySelector("#wish video");
 
-const wish = document.getElementById("wish");
-
-video.addEventListener("ended", () => {
-  wish.remove();
+  video.addEventListener("ended", () => {
+    wish.remove();
+  });
 });
