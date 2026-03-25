@@ -152,14 +152,14 @@ body {
   position: absolute;
   width: 10px;
   height: 310px;
-  background: linear-gradient(to left, #B3AA37, #D1CA6B, #B3AA37, #806F03);
+  background: linear-gradient(to left, #B3AA37, #D1CA6B, #D1CA6B, #B3AA37, #806F03);
 }
 
 #colour {
   position: absolute;
   width: 10px;
   height: 300px;
-  background: linear-gradient(to left, #AB0740, #BA4C76, #AB0740, #80032E);
+  background: linear-gradient(to left, #AB0740, #BA4C76, #BA4C76, #AB0740, #80032E);
 }
 
 @keyframes middle {
