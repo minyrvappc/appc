@@ -202,7 +202,7 @@ body {
   position: absolute;
   width: 200px;
   text-align: center;
-  left: -555px;
+  left: -515px;
   animation: page 1s ease-in-out forwards;
   animation-play-state: paused;
 }
