@@ -40,6 +40,7 @@ body {
 .scroll:hover .middle {animation-play-state: running;}
 .scroll:hover .page #page2 {animation-play-state: running;}
 .scroll:hover .text #msg {animation-play-state: running;}
+.scroll:hover .cover #white {animation-play-state: running;}
 
 .scroll {
   position: relative;
@@ -200,9 +201,33 @@ body {
 
 #msg {
   position: absolute;
-  width: 200px;
   text-align: center;
-  left: -515px;
+  width: 200px;
+  left: -475px;
   animation: page 1s ease-in-out forwards;
   animation-play-state: paused;
+}
+
+
+/* cover */
+
+.cover {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+#white {
+  position: absolute;
+  left: -300px;
+  width: 600px;
+  height: 300px;
+  background-color: #EE2222;
+  animation: cover 1s ease-in-out forwards;
+  animation-play-state: paused;
+}
+
+@keyframes cover {
+  to {transform: translateX(-300px);}
 }
