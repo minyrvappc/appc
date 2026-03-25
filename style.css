@@ -39,6 +39,7 @@ body {
 .scroll:hover .right {animation-play-state: running;}
 .scroll:hover .middle {animation-play-state: running;}
 .scroll:hover .page #page2 {animation-play-state: running;}
+.scroll:hover .text #msg {animation-play-state: running;}
 
 .scroll {
   position: relative;
@@ -202,4 +203,6 @@ body {
   width: 200px;
   text-align: center;
   left: -575px;
+  animation: page 1s ease-in-out forwards;
+  animation-play-state: paused;
 }
