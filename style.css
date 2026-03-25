@@ -23,6 +23,7 @@ body {
 }
 
 #wish video {
+  position: absolute;
   height: 100vh;
   width: 100%;
   background-position: absolute;
