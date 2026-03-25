@@ -19,7 +19,7 @@ body {
 /* wish */
 
 #wish {
-  position:relative;
+  position: absolute;
 }
 
 #wish video {
