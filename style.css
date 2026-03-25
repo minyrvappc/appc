@@ -139,10 +139,6 @@ body {
 
 /* scroll middle */
 
-.overflow {
-  overflow: hidden;
-}
-
 .middle {
   display: flex;
   position: relative;
