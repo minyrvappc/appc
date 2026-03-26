@@ -64,11 +64,11 @@ body {
   52% {
     opacity: 1;
     scale: 1;
-    transform: translate(0);
-    filter: brightness(0);}
+    transform: translate(0);}
   
   70% {
-    transform: translate(.5rem);}
+    transform: translate(.5rem);
+    filter: brightness(0);}
   
   to {
     transform: translate(.5rem);
