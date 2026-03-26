@@ -46,9 +46,29 @@ body {
 
 .scroll {
   position: relative;
+  animation: blank 2s ease-in-out forwards;
 }
 
-
+@keyframes blank {
+  0% {
+    opacity: 0;
+    scale: 4}
+  
+  30% {
+    opacity: 1;
+    scale: 1;
+    transform: translate(0)}
+  
+  52% {
+    opacity: 1;
+    scale: 1;
+    transform: translate(0)}
+  
+  70% {
+    transform: translate(.5rem)}
+  
+  to {
+    transform: translate(.5rem)}
 
 
 /* scroll left */
