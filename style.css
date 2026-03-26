@@ -52,7 +52,7 @@ body {
 @keyframes blank {
   0% {
     opacity: 0;
-    scale: 4
+    scale: 4;
     filter: brightness(0);
   }
   
