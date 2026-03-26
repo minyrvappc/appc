@@ -192,7 +192,7 @@ body {
   left: -575px;
   width: 525px;
   height: 260px;
-  background: linear-gradient(to right, #E0E0D2, #EFF0E9, #EFF0E9, #FFFFFF, #F9FAF5);
+  background: linear-gradient(to right, #E0E0D2, #EFF0E9, #FFFFFF, #FFFFFF, #F9FAF5);
   animation: page 1s ease-in-out forwards;
   animation-play-state: paused;
 }
