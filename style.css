@@ -52,7 +52,7 @@ body {
 @keyframes blank {
   from {
     opacity: 0;
-    scale: 3;
+    scale: 3;}
   
   to {
     opacity: 1;
