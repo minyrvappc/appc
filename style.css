@@ -52,7 +52,9 @@ body {
 @keyframes blank {
   0% {
     opacity: 0;
-    scale: 4}
+    scale: 4
+    filter: brightness(0)
+  }
   
   30% {
     opacity: 1;
@@ -65,10 +67,13 @@ body {
     transform: translate(0)}
   
   70% {
-    transform: translate(.5rem)}
+    transform: translate(.5rem)
+    filter: brightness(0)
+  }
   
   to {
-    transform: translate(.5rem)}
+    transform: translate(.5rem)
+      filter: brightness(1)}
 }
 
 
