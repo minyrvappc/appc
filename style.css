@@ -201,7 +201,7 @@ body {
 
 .page {
   display: flex;
-  position: relative;
+  position: absolute;
   justify-content: center;
   align-items: center;
 }
