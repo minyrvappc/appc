@@ -50,29 +50,13 @@ body {
 }
 
 @keyframes blank {
-  0% {
+  from {
     opacity: 0;
-    scale: 4;
-    filter: brightness(0);
-  }
-  
-  30% {
-    opacity: 1;
-    scale: 1;
-    transform: translate(0);}
-  
-  52% {
-    opacity: 1;
-    scale: 1;
-    transform: translate(0);}
-  
-  70% {
-    transform: translate(.5rem);
-    filter: brightness(0);}
+    scale: 3;
   
   to {
-    transform: translate(.5rem);
-    filter: brightness(1);}
+    opacity: 1;
+    scale: 1;}
 }
 
 
