@@ -14,7 +14,13 @@ body {
   align-items: center;
 }
 
+#test {
+margin-bottom:0px;
+}
 
+#pls {
+margin-top:0px;
+}
 
 /* wish */
 
