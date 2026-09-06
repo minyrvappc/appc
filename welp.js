@@ -3,7 +3,7 @@ document.querySelector(".left").addEventListener("mouseenter", () => {
     .forEach(el => el.classList.add("animated"));
 });
 
-document.querySelector(".scroll".addEventListener("mouseenter", () => {
+document.querySelector(".scroll").addEventListener("mouseenter", () => {
   confetti({
   particleCount: 300,
   spread: 90,
@@ -15,5 +15,5 @@ document.querySelector(".scroll".addEventListener("mouseenter", () => {
   spread: 90,
   origin: { x: 0, y: .9 }
 });
-}))
+});
 
