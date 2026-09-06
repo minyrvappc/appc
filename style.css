@@ -244,6 +244,19 @@ body {
 }
 
 
+/* info */
+
+.info {
+  position: absolute;
+  top: 120px;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+
+
 /* cover */
 
 .cover {
