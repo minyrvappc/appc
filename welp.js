@@ -3,7 +3,7 @@ document.querySelector(".left").addEventListener("mouseenter", () => {
     .forEach(el => el.classList.add("animated"));
 });
 
-document.querySelector(".scroll").addEventListener("mouseenter", () => {
+document.querySelector("#cylinder").addEventListener("mouseenter", () => {
     confetti({
     particleCount: 300,
     spread: 90,
