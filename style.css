@@ -269,18 +269,3 @@ body {
   to {transform: translateX(-300px);}
 }
 
-/* info */
-
-.info {
-  position: absolute;
-  top: 120px;
-  left: 0;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
-#info2 {
-  position: absolute;
-  text-align: center;
-}
