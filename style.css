@@ -60,13 +60,13 @@ body {
 
 .scroll {
   position: relative;
-  animation: blank 1s ease-out forwards;
+  animation: blank 2s ease-out forwards;
 }
 
 @keyframes blank {
   from {
     opacity: 0;
-    transform: translateX(-1000px);}
+    transform: translateX(-6000px);}
   
   to {
     opacity: 1;
