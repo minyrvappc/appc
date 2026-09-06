@@ -7,12 +7,14 @@ document.querySelector("#cylinder").addEventListener("mouseenter", () => {
     confetti({
     particleCount: 300,
     spread: 90,
+    startVelocity: 80,
     origin: { x: 1, y: .9 }
   });
   
     confetti({
     particleCount: 300,
     spread: 90,
+    startVelocity: 80,
     origin: { x: 0, y: .9 }
   });
 });
