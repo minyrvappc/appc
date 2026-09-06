@@ -60,7 +60,7 @@ body {
 
 .scroll {
   position: relative;
-  transition: transform 1s ease;
+  animation: blank 0.5s ease-in forwards;
 }
 
 @keyframes blank {
