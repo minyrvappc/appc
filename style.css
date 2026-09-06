@@ -14,6 +14,26 @@ body {
   align-items: center;
 }
 
+/* index format */
+
+#welp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#anniversary-login .image {
+  max-width: 100%;
+  display: block;
+}
+
+#anniversary-login #pass {
+  margin-top: 20px;
+}
+
+
 
 /* wish */
 
